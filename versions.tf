@@ -7,6 +7,6 @@ terraform {
     }
   }
 }
-provider "azurem" {
+provider "azurerm" {
   features {}
 }
