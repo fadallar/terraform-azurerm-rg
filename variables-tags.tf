@@ -24,7 +24,7 @@ variable "spoc" {
 }
 
 variable "owner" {
-  description = "Owner Tag Value. Worklaod's Technical Owner"
+  description = "Owner Tag Value. Workload's Technical Owner"
    type        = string
    default     = ""
 
