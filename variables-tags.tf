@@ -9,29 +9,3 @@ variable "extra_tags" {
   type        = map(string)
   default     = {}
 }
-
-variable "costcenter" {
-  description = "Cost Center Tag Value used for Cost Allocation"
-  type        = string
-  default     = ""
-
-}
-
-variable "spoc" {
-   description = "SPOC Tag Value  used for Cloud Financial Management"
-   type        = string
-   default     = ""
-}
-
-variable "owner" {
-  description = "Owner Tag Value. Workload's Technical Owner"
-   type        = string
-   default     = ""
-
-}
-
-variable "change" {
-  description = "SNOW Change request"
-   type        = string
-   default     = ""
-}
