@@ -5,6 +5,6 @@ locals {
     SPOC = var.spoc
     Owner = var.owner
     Change = var.change
-    Stack = var.stack
+    Application = var.stack
   } : {}
 }
