@@ -27,3 +27,4 @@ module "ressource" {
     stack       = var.stack
     location    = module.regions_master.location
     location_short = module.regions_master.location_short
+}
