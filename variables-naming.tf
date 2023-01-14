@@ -1,4 +1,4 @@
-variable "custom_rg_name" {
+variable "custom_name" {
   description = "Optional custom resource group name"
   type        = string
   default     = ""
