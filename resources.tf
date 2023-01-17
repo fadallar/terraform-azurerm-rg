@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "main_rg" {
 }
 
 resource "azurerm_management_lock" "resource_group_level_lock" {
-  count = var.lock_level == "" ? 0 : 1
+  count      = var.lock_level == "" ? 0 : 1
   name       = "${local.name}-${var.lock_level}"
   scope      = azurerm_resource_group.main_rg.id
   lock_level = var.lock_level
