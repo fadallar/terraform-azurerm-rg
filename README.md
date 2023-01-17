@@ -1,5 +1,7 @@
+# Aure Resource group
+
 <!-- BEGIN_TF_DOCS -->
-    ## Requirements
+## Requirements
 
 | Name | Version |
 |------|---------|
