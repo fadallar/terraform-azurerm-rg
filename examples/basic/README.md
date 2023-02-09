@@ -30,6 +30,7 @@ module "ressource" {
     version = "x.y.z"
     environment = var.environment
     stack       = var.stack
+    default_tags = module.base-tagging.base_tags
     landing_zone_slug = var.landing_zone_slug
     location    = module.regions_master.location
     location_short  = module.regions_master.location_short
