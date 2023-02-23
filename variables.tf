@@ -14,7 +14,7 @@ variable "environment" {
 }
 
 variable "stack" {
-  description = "Project stack name"
+  description = "Application name or identifier"
   type        = string
 }
 

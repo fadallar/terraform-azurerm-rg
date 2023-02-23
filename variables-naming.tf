@@ -11,7 +11,7 @@ variable "workload_info" {
 }
 
 variable "landing_zone_slug" {
-  description = "Landing zone acronym,it will used to generate the resource nae"
+  description = "Landing Zone, subscription, acronym. It will be used to generate the resource name"
   type        = string
 }
 
